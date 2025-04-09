@@ -85,6 +85,31 @@ form {
     }
 }
 
+.contact-info {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    height: 100%;
+
+    .info-item {
+        margin-bottom: 2rem;
+        
+        h3 {
+            font-family: "Bevan", serif;
+            color: black;
+            font-size: 24px;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 0;
+        }
+    }
+}
+
 // Responsive adjustments
 @media (max-width: 768px) {
     .container-fluid {

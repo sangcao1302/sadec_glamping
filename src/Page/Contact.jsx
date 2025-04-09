@@ -5,7 +5,26 @@ export default function Contact() {
         <div className="container-fluid">
             <h1 className='text-center mt-5 text-header-contact'>LIÊN HỆ</h1>
             <div className="row">
-                <div className="col-md-6"></div>
+                <div className="col-md-6">
+                    <div className="contact-info" style={{backgroundColor:"#d9d9d9"}}>
+                        <div className="info-item">
+                            <h3>Địa chỉ</h3>
+                            <p>353 ĐT848, Tân Khánh Đông, Sa Đéc, Đồng Tháp, Việt Nam</p>
+                        </div>
+                        <div className="info-item">
+                            <h3>Số điện thoại</h3>
+                            <p>+84 953985989</p>
+                        </div>
+                        <div className="info-item">
+                            <h3>E-mail</h3>
+                            <p>sadecgarden@gmail.com</p>
+                        </div>
+                        <div className="info-item">
+                            <h3>Giờ mở cửa</h3>
+                            <p>Thứ 2 - Chủ nhật: 8:00 - 22:00</p>
+                        </div>
+                    </div>
+                </div>
                 <div className="col-md-6">
                     <form action="" style={{backgroundColor:"#d9d9d9"}}>
                         <div className="row">
