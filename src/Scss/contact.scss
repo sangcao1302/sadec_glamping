@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap');
+
+.text-header-contact{
+    font-family: "Bevan", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #385938;
+}
+
+.contact-title{
+    font-family: "Bevan", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 130%;
+}
+.row {
+    width: 100%;
+    margin: 0;
+}
+
+.col-md-6 {
+    padding: 2rem;
+}
+
+form {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+    h2 {
+        color: #333;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .col-md-12 {
+        margin-bottom: 1.5rem;
+    }
+
+    input, textarea {
+        width: 100%;
+        // padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+        &:focus {
+            outline: none;
+            border-color: #4CAF50;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        &::placeholder {
+            color: #999;
+        }
+    }
+
+    textarea {
+        resize: vertical;
+        min-height: 150px;
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 30px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #45a049;
+        }
+    }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 2rem 1rem;
+    }
+
+    form {
+        padding: 1.5rem;
+    }
+}

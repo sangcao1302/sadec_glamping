@@ -1,0 +1,22 @@
+@import './All.scss';
+@import url('https://fonts.googleapis.com/css2?family=Baloo:wght@400;500;600;700;800&display=swap');
+.header-nav {
+    background-color:#226720;
+   
+}
+.nav-link{
+    color: #E7D8B8;
+    font-family: "Baloo", cursive;
+    
+    
+}
+.navbar-nav li{
+    border-right: 1px solid #E7D8B8;
+}
+.logo{
+    img{
+        max-width: 25%;
+       
+      
+    }
+}

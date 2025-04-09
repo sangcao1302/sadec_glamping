@@ -1,0 +1,24 @@
+.logo-footer{
+    img{
+        width: 100%;
+        object-fit: cover;
+        filter: brightness(0) invert(1);
+        margin-bottom: 15px;
+    }
+}
+
+.icon-footer {
+  margin-top: 15px;
+  
+  /* Override the social icons background color for the footer */
+  .social-icons {
+    .social-icon {
+      background-color: white;
+      color: #3f7d58;
+      
+      &:hover {
+        background-color: #f0f0f0;
+      }
+    }
+  }
+}
